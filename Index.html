@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apexwin | Sports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">APEX<span>WIN</span></div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#sports">Sports</a>
+        <a href="#matches">Matches</a>
+    </div>
+
+    <div class="nav-buttons">
+        <button class="login">Login</button>
+        <button class="register">Register</button>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <p class="small-title">WELCOME TO APEXWIN</p>
+        <h1>Sports.<br><span>Excitement.</span></h1>
+        <p class="hero-text">
+            Follow today's biggest matches and explore the action.
+        </p>
+
+        <button class="hero-button" onclick="scrollToMatches()">
+            Explore Matches →
+        </button>
+    </div>
+</section>
+
+<section class="sports" id="sports">
+    <h2>Popular Sports</h2>
+
+    <div class="sports-grid">
+        <div class="sport-card">
+            <div class="sport-icon">⚽</div>
+            <h3>Football</h3>
+            <p>Matches & fixtures</p>
+        </div>
+
+        <div class="sport-card">
+            <div class="sport-icon">🏀</div>
+            <h3>Basketball</h3>
+            <p>Latest games</p>
+        </div>
+
+        <div class="sport-card">
+            <div class="sport-icon">🎾</div>
+            <h3>Tennis</h3>
+            <p>Live competitions</p>
+        </div>
+
+        <div class="sport-card">
+            <div class="sport-icon">🏎️</div>
+            <h3>Motorsport</h3>
+            <p>Race events</p>
+        </div>
+    </div>
+</section>
+
+<section class="matches-section" id="matches">
+    <div class="section-heading">
+        <div>
+            <p class="small-title">TODAY</p>
+            <h2>Featured Matches</h2>
+        </div>
+        <span class="live">● LIVE</span>
+    </div>
+
+    <div class="match-card">
+        <div class="league">⚽ FOOTBALL • INTERNATIONAL</div>
+
+        <div class="teams">
+            <div class="team">
+                <div class="team-logo">A</div>
+                <strong>Team Alpha</strong>
+            </div>
+
+            <div class="vs">
+                <span>VS</span>
+                <small>20:00</small>
+            </div>
+
+            <div class="team">
+                <div class="team-logo">B</div>
+                <strong>Team Beta</strong>
+            </div>
+        </div>
+
+        <div class="odds">
+            <button>Alpha <b>1.85</b></button>
+            <button>Draw <b>3.40</b></button>
+            <button>Beta <b>2.10</b></button>
+        </div>
+    </div>
+
+    <div class="match-card">
+        <div class="league">⚽ FOOTBALL • PREMIER</div>
+
+        <div class="teams">
+            <div class="team">
+                <div class="team-logo">C</div>
+                <strong>Team City</strong>
+            </div>
+
+            <div class="vs">
+                <span>VS</span>
+                <small>21:30</small>
+            </div>
+
+            <div class="team">
+                <div class="team-logo">D</div>
+                <strong>Team United</strong>
+            </div>
+        </div>
+
+        <div class="odds">
+            <button>City <b>1.70</b></button>
+            <button>Draw <b>3.60</b></button>
+            <button>United <b>2.35</b></button>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Ready for the action?</h2>
+    <p>Create your Apexwin account and explore the platform.</p>
+    <button onclick="showMessage()">Create Account</button>
+</section>
+
+<footer>
+    <div class="logo">APEX<span>WIN</span></div>
+    <p>© 2026 Apexwin. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
